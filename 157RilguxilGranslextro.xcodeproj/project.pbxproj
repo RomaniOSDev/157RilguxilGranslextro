@@ -54,6 +54,7 @@
 		30696B212FADDA9A00EF45FD /* NotificationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30696B0F2FADDA9A00EF45FD /* NotificationPermissionManager.swift */; };
 		30696B222FADDA9A00EF45FD /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30696B102FADDA9A00EF45FD /* NotificationPermissionView.swift */; };
 		30696B272FADDAF800EF45FD /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30696B252FADDAF800EF45FD /* NotificationService.swift */; };
+		30697F772FB30B6300EF45FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30697F762FB30B6300EF45FD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,7 @@
 		30696B232FADDACD00EF45FD /* 157RilguxilGranslextro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 157RilguxilGranslextro.entitlements; sourceTree = "<group>"; };
 		30696B242FADDAF800EF45FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30696B252FADDAF800EF45FD /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		30697F762FB30B6300EF45FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		328F4B85C2EE18D8982FFE93 /* Pods_157RilguxilGranslextro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_157RilguxilGranslextro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		415C33D65AC9604454AC80D9 /* Pods-157RilguxilGranslextro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-157RilguxilGranslextro.debug.xcconfig"; path = "Target Support Files/Pods-157RilguxilGranslextro/Pods-157RilguxilGranslextro.debug.xcconfig"; sourceTree = "<group>"; };
 		555732784033547067D242AC /* Pods-157RilguxilGranslextro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-157RilguxilGranslextro.release.xcconfig"; path = "Target Support Files/Pods-157RilguxilGranslextro/Pods-157RilguxilGranslextro.release.xcconfig"; sourceTree = "<group>"; };
@@ -330,6 +332,7 @@
 				302042292FAA5E6200A1DCA4 /* SceneDelegate.swift */,
 				3020422A2FAA5E6200A1DCA4 /* ViewController.swift */,
 				30696B152FADDA9A00EF45FD /* Loading */,
+				30697F762FB30B6300EF45FD /* GoogleService-Info.plist */,
 			);
 			path = 157RilguxilGranslextro;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				302042462FAA5E6200A1DCA4 /* Assets.xcassets in Resources */,
+				30697F772FB30B6300EF45FD /* GoogleService-Info.plist in Resources */,
 				302042482FAA5E6200A1DCA4 /* LaunchScreen.storyboard in Resources */,
 				302042492FAA5E6200A1DCA4 /* Main.storyboard in Resources */,
 			);
@@ -602,7 +606,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 157RilguxilGranslextro/157RilguxilGranslextro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 157RilguxilGranslextro/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Rilguxil Granslextro";
@@ -642,7 +646,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 157RilguxilGranslextro/157RilguxilGranslextro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 157RilguxilGranslextro/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Rilguxil Granslextro";
@@ -798,7 +802,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
@@ -831,7 +835,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
