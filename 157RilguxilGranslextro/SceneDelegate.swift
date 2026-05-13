@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import UIKit
 import SwiftUI
 import AppTrackingTransparency
 import AppsFlyerLib

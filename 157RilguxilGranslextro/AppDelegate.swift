@@ -28,8 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate, UNUser
         AppsFlyerLib.shared().delegate = self
         AppsFlyerLib.shared().deepLinkDelegate = self
         AppsFlyerLib.shared().start()
-        
-        
+
+
         //FireBase
         FirebaseApp.configure()
         Messaging.messaging().delegate = self
